@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: #1c1c1c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.brand img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 152px;
+    height: 46px;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none; 
+    height:65px;
+    background-color: black; 
+    color:white;
+    font-size: 15px;
+   
+}
+
+nav ul li{
+    padding:0 12px;
+    cursor:pointer;
+}
+nav ul li:hover{
+    color: green;
+    
+}
+.container{
+    min-height:72vh;
+    background-color:black;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    display:flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:25px;
+    box-shadow: -32px 34px 63px 54px rgb(0 102 16 / 20%);
+}
+.bottom{
+    position:sticky;
+    bottom:0;
+    height:130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    
+
+}
+#myProgressBar{
+    width:80vw;
+    cursor:pointer;
+}
+#login{
+   color:white;
+   margin:744px;
+   border:1px solid white;
+   padding:4px 12px;
+    text-decoration: none;
+}
+input{
+    background-color: green;
+}
+.icons{
+    margin-top:19px;
+   
+}
+.icons i{
+    cursor:pointer;
+    padding:0 10px;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color: #111010;
+    color:white;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+.songItemContainer{
+    margin-top:75px;
+}
+.songItem img{
+    width: 45px;
+    height: 45px;
+    margin:0 12px;
+    border-radius: 23px;
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor:pointer;
+    margin:0 8px;
+}
+.songInfo{
+    position:absolute;
+    left:10vw;
+    font-family: 'Varela Round', sans-serif;
+} 
+.songInfo img{
+    opacity:0;
+    transition:opacity 0.3s ease-in;
+}
+#myProgressBar:hover{
+    background-color: grey;
+}
+.songItemContainer-child:hover{
+    color:green;
+}
